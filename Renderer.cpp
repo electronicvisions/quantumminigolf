@@ -177,7 +177,7 @@ Renderer::Renderer(int width, int height, int flag, int holex, int holey, int ho
 		fntbg = TTF_OpenFont( "fonts/default.ttf", 24 );    
         fntarc = TTF_OpenFont("fonts/press-start-2p/PressStart2P.ttf", 20);
         fntarc_sml = TTF_OpenFont("fonts/press-start-2p/PressStart2P.ttf", 12);
-#endif LINUX
+#endif // LINUX
 
 #ifdef WIN32
 	fntsml = TTF_OpenFont( "C:\\windows\\fonts\\tahoma.ttf", 12 );
