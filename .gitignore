@@ -11,3 +11,8 @@
 *.lai
 *.la
 *.a
+
+# waf stuff
+.waf-*/
+.lock-waf_linux2_build
+build/

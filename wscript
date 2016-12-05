@@ -18,7 +18,7 @@ def configure(conf):
 	conf.load('compiler_c')
 	conf.load('compiler_cxx')
 	conf.load('boost')
-	#conf.check_boost(lib='property_tree')
+	conf.check_boost(header='property_tree')
 
 	#conf.env.CXXFLAGS_FLAGS = [ '-std=c++11', '-DLINUX' ]
 	conf.env.CXXFLAGS_FLAGS = [ '-DLINUX' ]
